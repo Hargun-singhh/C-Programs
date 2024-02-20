@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main() {
-    int number;
+    int num;
 
     printf("Enter an Number: ");
-    scanf("%d", &number);
+    scanf("%d", &num);
 
     switch (number % 2) {
         case 0:
-            printf("%d is an even number.\n", number);
+            printf("%d is an even number.\n", num);
             break;
         case 1:
         case -1:
-            printf("%d is an odd number.\n", number);
+            printf("%d is an odd number.\n", num);
             break;
         default:
             printf("Invalid input.\n");
