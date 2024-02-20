@@ -12,6 +12,7 @@ int main() {
         case 1:
         case -1:
             printf("%d is an odd number.\n", num);
+
             break;
         default:
             printf("Invalid input.\n");
